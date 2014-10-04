@@ -1,12 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="zumba:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="zumba:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/zumba_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="zumba/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="zumba" />
+          <element id="library" level="application" name="grails-2.1" />
         </element>
+        <element id="directory" name="lib" />
       </element>
     </root>
   </artifact>
